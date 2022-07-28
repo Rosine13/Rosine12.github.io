@@ -1,0 +1,331 @@
+.logo img{
+    width: 100%; 
+    height: 70px; 
+    margin-top: -50px; 
+    border-radius: 100px;
+    margin-left: 5px;
+}
+#navbar{
+    /* padding-top: 35px; */
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    /* position: absolute; */
+    /* opacity: 0.3; */
+    top: 0;
+    left: 0;
+    z-index: 999;
+     font-family: sans-serif;
+}
+#navbar .logo{
+    margin-top: 0px;
+    width: 5rem;
+   
+    margin-left: 30px;
+    z-index: 5;
+}
+#navbar .logo img{
+    width: 100%;
+    margin-top: 10%;
+}
+#navbar .nav-items{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+    margin: 25px 30px 25px 0;
+}
+#navbar .nav-items li{
+    margin: 0 1rem;
+}
+#navbar .nav-items li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+     font-family: sans-serif;
+}
+#navbar .nav-items li a:hover{
+    color: blue;
+}
+.accueil{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;   
+    width: 100%;
+    height: 500px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+.accueil div{ 
+    width: 45%;
+    height: 500px;
+    font-family: sans-serif;
+}
+.text{
+    width: 45%;
+    height: 400px;
+    font-family: sans-serif;
+}
+.Apropos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(217, 217, 217, 0.2);   
+    width: 100%;
+    height: 100px;
+    margin-bottom: 15px;
+    font-family:sans-serif;
+}
+.propos{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(217, 217, 217, 0.2);   
+    width: 100%;
+    height: 500px;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+}
+.propos div{
+    background-color: white;   
+    width: 47%;
+    height: 400px;
+}
+.Aservice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(217, 217, 217, 0.2);   
+    width: 100%;
+    height: 90px;
+    margin-bottom: 15px;
+    font-family:sans-serif;
+}
+.services1{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(217, 217, 217, 0.2);   
+    width: 100%;
+    height: 450px;
+
+    font-family: sans-serif;
+}
+.S1{
+    background-color: white; 
+    width: 20%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    margin-bottom: 5px; 
+    font-family: sans-serif;
+}
+.S1 div{ 
+    width: 80%;
+    height: 170px;
+}
+.S2{
+       background-color: white; 
+    width: 20%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    margin-bottom: 15px; 
+    font-family: sans-serif;
+}
+.S2 div{ 
+    width: 80%;
+    height: 170px;
+}
+.S3{
+   /* background-color: white; */
+    width: 20%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    margin-bottom: 5px; 
+    font-family: sans-serif;
+}
+.S3 div{ 
+    width: 80%;
+    height: 170px;
+}
+.S4{
+       background-color: white; 
+    width: 20%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    margin-bottom: 5px; 
+    font-family: sans-serif;
+}
+.S4 div{ 
+    width: 80%;
+    height: 170px;
+}
+.services2{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(217, 217, 217, 0.2);   
+    width: 100%;
+    height: 450px;
+    margin-bottom: 40px;
+    font-family: sans-serif;
+}
+.S5{
+    background-color: white; 
+    width: 20%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    margin-bottom: 5px; 
+    font-family: sans-serif;
+}
+.S5 div{ 
+    width: 80%;
+    height: 170px;
+}
+.S6{
+      background-color: white; 
+    width: 20%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    margin-bottom: 5px; 
+    font-family: sans-serif;
+}
+.S6 div{ 
+    width: 80%;
+    height: 170px;
+}
+.S7{
+       background-color: white; 
+    width: 20%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    margin-bottom: 5px; 
+    font-family: sans-serif;
+}
+.S7 div{ 
+    width: 80%;
+    height: 170px;
+}
+.S8{
+      background-color: white; 
+    width: 20%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    margin-bottom: 5px; 
+    font-family: sans-serif;
+}
+.S8 div{ 
+    width: 80%;
+    height: 170px;
+}
+.Acontact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(217, 217, 217, 0.2);   
+    width: 100%;
+    height: 90px;
+    margin-bottom: 15px;
+    font-family:sans-serif;
+}
+.contact{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      background-color:  rgba(217, 217, 217, 0.37);
+      width: 100%;
+      height: 440px;
+      margin-bottom: 2px;
+       font-family: bold;
+}
+.contact div{
+      width: 40%;
+      height: 370px;
+      background-color:#197af0;
+      font-family: bold;
+     border-radius: 5px;
+}
+.form{
+    text-align: center;
+    width: 300px;
+    margin: 0px auto 0;
+    padding: 20px;
+    box-shadow: 0 0 3px black;
+    background-color: #260F84;
+     font-family: bold;
+}
+
+.input{
+    border-radius: 6px;
+    padding: 8px;
+    margin: 10px 0;
+    border: 2px solid white;
+    font-family: bold;
+    height: 40px;
+}
+h1{
+    color: black;
+     font-family: bold;
+}
+button{
+    border-radius: 6px;
+    padding: 5px;
+    width: 20%;
+    background-color: white;
+    border: white;
+    color: black;
+    font-family: bold;
+
+}
+
+.foo {
+    background-color:white;
+    align-items: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height:80px;
+    margin-bottom: 10px;
+    font-family: bold;
+}
+.foot{
+    background-color:rgba(217, 217, 217, 0.37); 
+    margin-left: auto;
+    width: 100%;
+    height:60px;
+    font-family: bold;
+}
